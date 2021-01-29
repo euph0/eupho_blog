@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /CNAME
+Disallow: /README
+
+Allow: /
+Allow: /about/
+Allow: /archives/
+Allow: /categories/
+
+Allow: /css/
+Allow: /images/
+Allow: /js/
+Allow: /lib/

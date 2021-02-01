@@ -513,7 +513,7 @@ pjax: false
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox/
-fancybox: false
+fancybox: true
 
 # A JavaScript library for zooming images like Medium.
 # Warning: Do not enable both `fancybox` and `mediumzoom`.
@@ -870,7 +870,12 @@ vendors:
 
   # MathJax
   mathjax:
-
+    tags: none
+    single_dollars: true
+    cjk_width: 0.9 # relative CJK char width
+    normal_width: 0.6 # relative normal (monospace) width
+    append_css: true # add CSS to pages rendered by MathJax
+    every_page: false # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
   # KaTeX
   katex:
   copy_tex_js:

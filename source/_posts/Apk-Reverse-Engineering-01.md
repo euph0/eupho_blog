@@ -1,7 +1,7 @@
 ---
 title: Apk Reverse Engineering 01
 date: 2021-04-02 22:44:08
-tags: Andoird
+tags: Android
 ---
 本文主要内容包含一些基本的反编译、重打包、签名、修改 app 行为的方法
 

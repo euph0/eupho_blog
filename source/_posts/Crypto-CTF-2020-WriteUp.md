@@ -13,6 +13,7 @@ The text that includes the flag is transmitted while unfortunately both of its h
 {% endblockquote %}
 题目给出了一个txt文件，内容是一个二进制串
 
+<!--more-->
 ## Solution
 
 根据题目可知字符串的头和尾有一些字符丢失了，但不影响flag字符串的内容。
